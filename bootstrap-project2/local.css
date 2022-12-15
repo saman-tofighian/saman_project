@@ -1,0 +1,178 @@
+@media screen and (max-width: 575px) {
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header nav section:nth-of-type(1) h2 {
+    font-size: 36px;
+  }
+  #top_site > section article {
+    text-align: center;
+  }
+  #top_site > section article h1 {
+    font-size: 27px;
+  }
+  #top_site > section article p {
+    text-align: center;
+  }
+  #top_site > section > figure {
+    background-size: 84% 80%;
+  }
+  #provide > section > figure {
+    background-size: 77% 75%;
+  }
+  #provide > section article {
+    text-align: center;
+  }
+  #provide > section article > h2 {
+    width: 100%;
+  }
+  #features > #content_features {
+    margin-top: 0;
+  }
+  #features > #content_features > article > .parent_article > .icon_features {
+    margin-right: 30px;
+    font-size: 38px;
+  }
+  #copy #content_copy {
+    justify-content: center;
+  }
+  #footer > #links > section:nth-of-type(4) > form {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 576px) {
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header nav section:nth-of-type(1) h2 {
+    font-size: 36px;
+  }
+  #top_site > section article {
+    text-align: center;
+  }
+  #top_site > section article h1 {
+    font-size: 27px;
+  }
+  #top_site > section article p {
+    font-size: 18px;
+  }
+  #top_site > section > figure {
+    background-size: 80% 80%;
+  }
+  #provide > section > figure {
+    background-size: 77% 75%;
+  }
+  #provide > section article {
+    text-align: center;
+  }
+  #provide > section article > h2 {
+    width: 100%;
+  }
+  #features > #content_features {
+    margin-top: 0;
+  }
+  #features > #content_features > article > .parent_article > .icon_features {
+    margin-right: 30px;
+    font-size: 38px;
+  }
+  #copy #content_copy section {
+    display: flex;
+    justify-content: center;
+  }
+  #footer > #links > section:nth-of-type(4) > form {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #top_site > section > figure {
+    background-size: 69% 80%;
+  }
+  #content_services article {
+    width: 48.888888%;
+  }
+  #pricing #card_pricing > article {
+    width: 48.555555%;
+  }
+  #contact > #address > article:nth-of-type(2) {
+    width: 48.444444%;
+  }
+  #contact > #address > article:nth-of-type(3) {
+    width: 48.444444%;
+  }
+  #map > #form > form {
+    justify-content: space-between;
+  }
+  #map > #form > form > input:nth-of-type(1) {
+    width: 48.111111%;
+  }
+  #map > #form > form > input:nth-of-type(2) {
+    width: 48.111111%;
+  }
+}
+@media screen and (min-width: 992px) {
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header nav > ul > li > a {
+    display: flex;
+    align-items: center;
+  }
+  #top_site > section article {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  #top_site > section article h1 {
+    font-size: 60px;
+  }
+  #top_site > section > figure {
+    -webkit-animation: saman1 3s linear alternate infinite;
+            animation: saman1 3s linear alternate infinite;
+    background-size: 89% 89%;
+  }
+  #provide > section > figure {
+    background-size: 77% 77%;
+  }
+  #provide > section article {
+    text-align: left;
+  }
+  #content_services article {
+    width: 32.333333%;
+  }
+  #pricing #card_pricing > article {
+    width: 22.8889%;
+  }
+  #contact > #address > article:nth-of-type(1) {
+    width: 46.222222% !important;
+  }
+  #contact > #address > article:nth-of-type(2) {
+    width: 25% !important;
+  }
+  #contact > #address > article:nth-of-type(3) {
+    width: 25% !important;
+  }
+  #contact #map > * {
+    width: 49.333333%;
+  }
+  #footer > #links > section:nth-of-type(4) {
+    width: 38.888888%;
+  }
+  #copy #content_copy {
+    justify-content: space-between;
+  }
+  #footer > #links > section:nth-of-type(4) > form {
+    width: 81%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #features > #content_features {
+    margin-top: 10px;
+  }
+  #features > #content_features > article > .parent_article > .icon_features {
+    margin-right: 0px;
+    font-size: 38px;
+  }
+}/*# sourceMappingURL=local.css.map */
